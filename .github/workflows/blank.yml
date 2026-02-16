@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4          
         
       - name: Install Dep
-        run: mnv compile
+        run: mvn compile
 
       - name: Test app
         run: mvn test
